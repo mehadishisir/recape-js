@@ -34,3 +34,5 @@ console.log(square(9));
 // console log on function call
 const log = (num) => console.log("arrow function with no parameter");
 console.log(log());
+const bigNumber = (num) => num[0];
+console.log(bigNumber([7, 8, 9, 10, 11, 12, 13, 14, 15]));
