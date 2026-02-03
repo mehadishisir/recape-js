@@ -19,4 +19,18 @@ const multiply = (mult1, mult2) => {
   return { m1, m2, d1 };
 };
 const output = multiply(4, 7);
-console.log(output);
+// console.log(output);
+// more critical arrow function
+
+// tex
+
+const tax = (ammount, TaxRate) => (ammount * TaxRate) / 100;
+const taxAmount = tax(5000, 18);
+// console.log(taxAmount);
+
+// single parameter arrow function
+const square = (num) => num * num;
+console.log(square(9));
+// console log on function call
+const log = (num) => console.log("arrow function with no parameter");
+console.log(log());
